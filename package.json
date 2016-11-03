@@ -1,6 +1,6 @@
 {
   "name": "cfpm-io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ColdFusion Package Manager",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
   "license": "MIT",
   "bin": {
     "cfpm": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/prefinem/cfpm-io.git"
   },
   "dependencies": {
     "glob": "^7.1.1",
