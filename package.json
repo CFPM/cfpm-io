@@ -1,6 +1,6 @@
 {
     "name": "cfpm-io",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "ColdFusion Package Manager",
     "main": "index.js",
     "scripts": {

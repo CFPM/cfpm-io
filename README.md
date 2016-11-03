@@ -14,7 +14,7 @@ Installs cfpm
 	cfpm init
 Builds out cfpm.json package file
 
-	cfpm <package_name> (<version>)
+	cfpm add <package_name> (<version>)
 Installs or updates any packages in cfpm.json
 
 	cfpm remove <package_name>
@@ -31,9 +31,9 @@ Cleans the vendor folder
 
 `cfpm init` initializes the project by creating a cfpm.json file in the current working directory. Prompts will save the project name, version, description and other fields to cfpm.json.
 
-##### cfpm <package_name>
+##### cfpm add <package_name>
 
-`cfpm <package_name>` will add the package to the cfpm.json file and install it.
+`cfpm add <package_name>` will add the package to the cfpm.json file and install it.
 
 ##### cfpm remove <package_name>
 
