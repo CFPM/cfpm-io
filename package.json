@@ -1,27 +1,32 @@
 {
-  "name": "cfpm-io",
-  "version": "1.0.2",
-  "description": "ColdFusion Package Manager",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": {
-    "name": "William Giles"
-  },
-  "license": "MIT",
-  "bin": {
-    "cfpm": "./index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/prefinem/cfpm-io.git"
-  },
-  "dependencies": {
-    "glob": "^7.1.1",
-    "lodash": "^4.16.6",
-    "prompt": "^1.0.0",
-    "request": "^2.76.0",
-    "shelljs": "^0.7.5"
-  }
+    "name": "cfpm-io",
+    "version": "1.0.3",
+    "description": "ColdFusion Package Manager",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "homepage": "https://cfpm.io",
+    "author": {
+        "name": "William Giles"
+    },
+    "license": "MIT",
+    "bin": {
+        "cfpm": "./index.js"
+    },
+    "bugs": {
+        "url": "https://github.com/prefinem/cfpm-io/issues",
+        "email": "prefinem@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/prefinem/cfpm-io.git"
+    },
+    "dependencies": {
+        "glob": "^7.1.1",
+        "lodash": "^4.16.6",
+        "prompt": "^1.0.0",
+        "request": "^2.76.0",
+        "shelljs": "^0.7.5"
+    }
 }
